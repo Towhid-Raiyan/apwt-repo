@@ -1,6 +1,6 @@
-<!-- @extends('layouts.app') -->
-<!-- @section('content') -->
+ @extends('layouts.app')
+ @section('content') 
 <div>
-    <h1>Contact Us Page</h1>
+    <h1>From Here You Can Contact Us </h1>
 </div>
-<!-- @endsection -->
+@endsection

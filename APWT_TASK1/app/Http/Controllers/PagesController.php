@@ -9,12 +9,12 @@ class PagesController extends Controller
     //
     public function index(){
         $message = "Welcome";
-        return view('index.home')->with('message');
+        return view('pages.index.home')->with('message');
     }
 
     public function service(){
         //$message = "Service Page";
-        return view('products.service');
+        return view('pages.products.service');
     }
 
     public function ourTeams(){
